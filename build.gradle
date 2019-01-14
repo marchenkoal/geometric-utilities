@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'Geomutils'
+
+dependencies {
+    compile 'org.projectlombok:lombok:1.18.4'
+    testCompile 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
